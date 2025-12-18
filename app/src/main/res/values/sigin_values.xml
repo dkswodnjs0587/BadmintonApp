@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Badminton PowerUp</string>
+    <string name="app_name">Badminton LevelUp</string>
 
     <string-array name="email_domains">
         <item>직접입력</item>

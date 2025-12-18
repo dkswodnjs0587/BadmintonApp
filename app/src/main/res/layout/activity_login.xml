@@ -11,6 +11,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/backgroundfilter" />
 
+
     <LinearLayout
         android:id="@+id/login_header"
         android:layout_width="wrap_content"
@@ -22,16 +23,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!--셔틀콕-->
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/menubarcoockicon"
             app:tint="#FFFFFF"
             android:layout_marginBottom="15dp"/>
+
+        <!--중단 문구-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Badminton\nPower Up"
+            android:text="Badminton\nLevel Up"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:textStyle="bold"
@@ -45,6 +49,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginTop="10dp"/>
 
+        <!--작은 문구-->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -65,6 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!--아이디 입력창-->
         <EditText
             android:id="@+id/et_id"
             android:layout_width="match_parent"
@@ -77,6 +83,7 @@
             android:maxLines="1"
             android:layout_marginBottom="15dp"/>
 
+        <!--비밀번호 입력창-->
         <EditText
             android:id="@+id/et_password"
             android:layout_width="match_parent"
@@ -89,6 +96,7 @@
             android:maxLines="1"
             android:layout_marginBottom="30dp"/>
 
+        <!--로그인 버튼-->
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
@@ -120,6 +128,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!--비밀번호 찾기 버튼-->
         <TextView
             android:id="@+id/tv_find_pw"
             android:layout_width="wrap_content"
@@ -135,6 +144,7 @@
             android:layout_marginHorizontal="15dp"
             android:layout_gravity="center_vertical"/>
 
+        <!--회원가입 버튼-->
         <TextView
             android:id="@+id/tv_signup"
             android:layout_width="wrap_content"
