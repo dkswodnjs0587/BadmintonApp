@@ -58,7 +58,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="10dp"
-                            android:text="1. 점수 방식"
+                            android:text="1. 2점수 방식"
                             android:textColor="#8ED73D"
                             android:textSize="18sp"
                             android:textStyle="bold" />
