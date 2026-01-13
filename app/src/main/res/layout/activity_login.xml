@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@drawable/loginbackground"
-            android:hint="아이디를 입력하세요"
+            android:hint="아이디(이메일)를 입력하세요"
             android:paddingHorizontal="20dp"
             android:textSize="15sp"
             android:inputType="text"
